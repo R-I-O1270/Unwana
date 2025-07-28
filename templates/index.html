@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staff login</title>
+</head>
+<body>
+<h2>Staff login</h2>
+
+<form action = "{{url_for('submit')}}" method="POST">
+    <label for ="name"> Student Name </label> <br>
+    <input type = "text" id="name" name="name" ><br><br>
+    <label for = "regNo" >Reg No:</label><br>
+    <input type="text" id = "regNo" name ="regNo" ><br><br>
+        <label for = "dept" >Department:</label><br>
+    <input type="text" id = "dept" name ="dept" ><br><br>
+
+    <input type = "submit" value = "login">
+
+
+
+
+
+</form>
+
+</body>
+</html>
